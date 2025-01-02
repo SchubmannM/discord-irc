@@ -2,7 +2,7 @@ version: "3.9"
 services:
   discord-irc:
     image: discord-irc
-    restart: unless-stopped
+    restart: always
     build:
       context: .
       dockerfile: ./Dockerfile
